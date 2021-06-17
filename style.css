@@ -185,7 +185,7 @@ h1 {
         }
       
         .Box {
-          background-color: #444;
+          background-color: #fff;
           color: #fff;
           border-radius: 5px;
           padding: 20px;
@@ -195,33 +195,40 @@ h1 {
         }
       
         .a {
-          grid-column: col / span  2;
+          grid-column: col  / span 4  ;
           grid-row: row ;
-          background-color: rgba(99, 45, 10, 0.685);
-          z-index: 2;
+          justify-content: center;
+          
         }
         .b {
-          grid-column: col 4 / span  2 ;
+          grid-column: col 5/ span  2 ;
           grid-row: row ;
-          z-index: 1;
+          justify-content: center;
         }
         .c {
           grid-column: col / span 5  ;
           grid-row: row 2 ;
+          justify-content: center;
+          background-image: linear-gradient(red, black, blue);
         }
         .d {
-          grid-column: col 2 / span  1 ;
+          grid-column: col / span 4  ;
           grid-row: row 3 ;
+          justify-content: center;
         }
       
         .e {
-          grid-column: col 4 / span  1;
+          grid-column: col 5 / span 2  ;
           grid-row: row 3;
+          justify-content: center;
         }
       
         .f {
-          grid-column: col 2 / span 3;
+          grid-column: col 2/ span 3;
           grid-row: row 2  ;
           background-color: rgba(8, 45, 90, 0.459);
-          z-index: 21;
+          justify-content: center;
+          display: flex;
+          z-index: 20;
+          background-image: linear-gradient(blue, black red)
         }
